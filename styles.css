@@ -1,0 +1,105 @@
+/*
+File: styles.css
+Authot Charles Bush
+Date: 11/12/2020
+*/
+
+body {
+	background: lightblue;
+}
+
+div {
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  float: left;
+  display: block;
+}
+
+h2 {
+	font-style: italic;
+	text-align: center;
+}
+
+div.footer {
+	background: #00e600;
+	border-style: dashed;
+	color: #009933;
+}
+
+.AdaLovelace {
+	background-color: #cceeff;
+	border-style: solid;
+	border-width: 1px;
+}
+	
+.GraceHopper {
+	background-color: #b3e6ff;
+	border-style: dotted;
+}
+
+.AnnieEasley {
+	background-color: #99ddff;
+	border-style: groove;
+}
+
+.MaryWilkes {
+	background-color: #80d4ff;
+	border-style: ridge;
+}
+
+.AdeleGoldberg {
+	background-color: #66ccff;
+	border-style: inset;
+}
+	
+.MaryKeller {
+	background-color: #66ccff;
+	border-style: outset;
+}
+
+.RadiaPerlman {
+	background-color: #80d4ff;
+	border-style: ridge;
+}
+
+.KatherineJohnson {
+	background-color: #99ddff;
+	border-style: groove;
+}
+
+.KarenJones {
+	background-color: #b3e6ff;
+	border-style: dotted;
+}
+
+.ElizabethFeinler {
+	background-color: #cceeff;
+	border-style: solid;
+	border-width: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+p:first-child i {
+	font-size: 25px;
+}

@@ -1,0 +1,30 @@
+/* File: index.html
+       Author: Thorin Schmidt
+	   Date: 10/05/2020
+	   
+	   site-wide style definitions */
+	   
+body {
+	background: black;
+	color: white;
+}
+
+/* HEADER IMAGE GRADIENT */
+
+#grad {
+	background-image: linear-gradient(white, blue);
+}
+
+/* CONTENT */
+
+.content {
+	width: 85%
+}
+
+/*SIDEBAR */
+
+.sidebar {
+	width:14%;
+	border-color:white;
+}
+

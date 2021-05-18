@@ -1,0 +1,89 @@
+/* File: site.css
+       Author: Thorin Schmidt
+	   Date: 10/05/2020
+	   
+	   site-wide style definitions */
+	   
+body {
+	font-faimly: arial;
+	color: black;
+}
+
+/* NAVIGATION */
+
+nav {
+	background: blue;
+}
+
+nav a {
+	color: yellow;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background:yellow;
+	color: blue;
+}
+
+nav #current {
+	text-decoration: underline;
+}
+
+/* LOGO CLASS */
+
+.logo {
+	display: block;
+	width:100%;
+}	
+
+.logo img {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+/* CONTENT */
+
+.content {
+	display: block;
+	float: left;
+	width: 60%;
+}
+
+.content h1 {
+	display: block;
+	margin-left: 10px;
+}
+
+.content h3 {
+	display: block;
+	margin-left: 10px;
+}
+
+.content p {
+	display: block;
+	margin-left: 15px;
+	width: 90%;
+}
+	
+/*SIDEBAR */
+
+.sidebar {
+	display: block;
+	float: right;
+	width:39%;
+	border-left: 1px solid black;
+}
+
+.sidebar * {
+	display: block;
+	margin: auto;
+	width:90%;
+}
+
+/* FOOTER */
+
+.footer {
+	clear: both;
+}
+	
